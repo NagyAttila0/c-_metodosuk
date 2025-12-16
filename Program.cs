@@ -44,6 +44,7 @@ namespace ConsoleApp18
         {
             return a + b > c && a + c > b && b + c > a;
         }
+        //A kódot Nagy Attila írta
         private static void ListazMenu(List<string> menupontok)
         {
 
@@ -125,3 +126,4 @@ namespace ConsoleApp18
     }
 
 }
+
