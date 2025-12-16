@@ -58,7 +58,7 @@ namespace ConsoleApp18
                     Console.WriteLine($"{i + 1}. {menupontok[i]}");
                 }
 
-                Console.Write("Választás (1-4): ");
+                Console.Write("Választás (1-5): ");
                 string valasz = Console.ReadLine();
 
                 switch (valasz)
@@ -123,4 +123,5 @@ namespace ConsoleApp18
             }
         }
     }
+
 }
